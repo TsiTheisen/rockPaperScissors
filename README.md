@@ -1,2 +1,2 @@
 # rockPaperScissors
-A basic rock paper scissors game through console
+A rock paper scissors game through browser.
