@@ -1,6 +1,4 @@
-section {
-    
-}
+ 
 body {
     background-color: rgb(8, 50, 85);
 }
@@ -21,10 +19,23 @@ body {
     color: rgb(198, 203, 206)
 }
 
-.startGame {
-    margin: auto;
-    width:200px;
+.intro {
+    color: rgb(198, 203, 206);
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+.startGame {
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.startBtn {
+    display: flex;
+    text-align: center;
+    margin: auto;
 }
 
 .hands {
@@ -34,6 +45,12 @@ body {
     justify-content: center;
     justify-content: space-around;
    
+}
+.winner {
+display: flex;
+justify-content: center;
+text-align: center;
+margin: auto;
 }
 
 .match {
@@ -56,3 +73,13 @@ body {
     justify-content: space-around;
     padding-top: 40px;
 }
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+  }
